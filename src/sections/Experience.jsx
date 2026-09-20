@@ -4,8 +4,8 @@ const experiences = [
     role: "MERN Stack Developer",
     company: "ZNZ Technologies",
     description:
-      "Developing a full-stack E-Commerce web application using MongoDB, Express.js, React.js, and Node.js. Building responsive frontend interfaces and implementing backend APIs, authentication, database management, and order processing features while managing the complete development lifecycle from UI development to backend architecture and deployment.",
-    technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
+      "Built and delivered a full-stack e-commerce platform using React.js, Node.js, Express.js, PostgreSQL, and Prisma, owning the lifecycle from UI to backend APIs and deployment. Implemented a role-based admin panel, analytics dashboard, order management with stock sync, and local payment integrations (EasyPaisa, JazzCash). Currently contributing to a new product development project within the team.",
+    technologies: ["React.js", "Node.js", "Express.js", "PostgreSQL", "Prisma"],
     current: true,
   },
   {
@@ -13,7 +13,7 @@ const experiences = [
     role: "Web Developer",
     company: "Coding Caliber",
     description:
-      "Developed and maintained responsive, production-ready web applications using React.js, Next.js, and TypeScript. Transformed Figma designs into pixel-perfect interfaces, integrated PostgreSQL for data management, and successfully deployed a live production website optimized for performance and responsiveness.",
+      "Developed and maintained responsive, production-ready web applications using React.js, Next.js, and TypeScript. Transformed Figma designs into pixel-perfect interfaces, integrated PostgreSQL for data management, and delivered The Worklane corporate website to production.",
     technologies: [
       "React.js",
       "Next.js",
@@ -27,12 +27,15 @@ const experiences = [
   {
     period: "March 2025 — October 2025",
     role: "Front-End Developer",
+    // NOTE: CV mein "CJK Technologies" likha hai. Jo naam sahi hai wahi yahan, Testimonials.jsx aur CV mein rakho.
     company: "CCJK Technologies",
     description:
       "Developed responsive and high-performance web interfaces using React.js, JavaScript, HTML5, CSS3, and Bootstrap. Collaborated with cross-functional teams to improve UI/UX, ensure cross-browser compatibility, and contribute to scalable web solutions.",
     technologies: ["React.js", "JavaScript", "HTML5", "CSS3", "Bootstrap 5"],
     current: false,
   },
+  // NOTE: Ye entry CV mein nahi hai. Agar ye kaam real hai to CV mein bhi asli dates ke saath add karo
+  // aur description mein real details likho. Agar real nahi hai to ye poora object delete kar do.
   {
     period: "2020 — 2024",
     role: "Freelance Developer",
@@ -77,14 +80,14 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            A timeline of my professional growth as a MERN stack developer,
+            from frontend development to building full-stack products.
           </p>
         </div>
 
         {/* Timeline */}
         <div className="relative">
-          <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-[2px] bg-Linear-to-b from-primary/70 via-primary/30 to-transparent md:-translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]" />
+          <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-0.5 bg-Linear-to-b from-primary/70 via-primary/30 to-transparent md:-translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]" />
 
           {/* Experience Items */}
           <div className="space-y-12">

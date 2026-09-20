@@ -5,8 +5,8 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa6";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
-    "Html",
-  "Css",
+  "HTML5",
+  "CSS3",
   "JavaScript",
   "React",
   "Next.js",
@@ -38,7 +38,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src={`${import.meta.env.BASE_URL}hero-bg.jpg`}
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -72,7 +72,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Frontend MERN Stack Developer • React & Next.js
+                 MERN Stack Developer • React & Next.js
               </span>
             </div>
 
@@ -88,8 +88,8 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Zohaib Qasim — a Frontend MERN Stack Developer with
-                hands-on industry experience building modern, scalable, and
+                 Hi, I'm Zohaib Qasim — a MERN Stack Developer with 1.5+ years
+                of hands-on industry experience building modern, scalable, and
                 responsive web applications. I specialize in React.js, Next.js,
                 TypeScript, and Node.js, creating high-performance digital
                 experiences with clean code and exceptional user interfaces.
@@ -105,7 +105,7 @@ export const Hero = () => {
               >
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <a href="/Zohaib_Cv_job.pdf" download="Zohaib-Qasim-CV.pdf">
+             <a href={`${import.meta.env.BASE_URL}ZohaibCV.pdf`} download="Zohaib-Qasim-CV.pdf">
                 <AnimatedBorderButton>
                   <Download className="w-5 h-5" />
                   Download CV
@@ -118,8 +118,14 @@ export const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
                 { icon: FaGithub, href: "https://github.com/zaibijt" },
-                { icon: FaLinkedin, href: "https://www.linkedin.com/in/zohaib-qasim-7326b1321/" },
-                { icon: FaInstagram, href: "https://www.instagram.com/z.zohaibjutt/" },
+                {
+                  icon: FaLinkedin,
+                  href: "https://www.linkedin.com/in/zohaib-qasim-7326b1321/",
+                },
+                {
+                  icon: FaInstagram,
+                  href: "https://www.instagram.com/z.zohaibjutt/",
+                },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -134,7 +140,7 @@ export const Hero = () => {
             </div>
           </div>
           {/* Right Column - Profile Image */}
-          <div className="relatice animate-fade-in animation-delay-300">
+          <div className="relative animate-fade-in animation-delay-300">
             {/* Profile Image */}
             <div className="relative max-w-md mx-auto">
               <div
@@ -145,7 +151,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/ProfilePhoto.png"
+                  src={`${import.meta.env.BASE_URL}ProfilePhoto.png`}
                   alt="Zohaib Qasim"
                   className="w-full aspect-4/5 object-cover rounded-2xl"
                 />
@@ -161,7 +167,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">2+</div>
+                  <div className="text-2xl font-bold text-primary">1.5+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>

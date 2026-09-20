@@ -3,27 +3,27 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Scalable Solutions",
+    title: "Full-Stack Development",
     description:
-      "Building clean, scalable, and production-ready applications with a strong focus on performance, maintainability, and user experience.",
+      "Building complete applications with React.js and Next.js on the frontend, and Node.js, Express.js, MongoDB, and PostgreSQL on the backend.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Production Deployments",
     description:
-      "Building fast, responsive, and high-performance web applications that deliver seamless user experiences across devices.",
+      "Shipping live, production-ready websites and web apps with responsive layouts and a strong focus on performance.",
   },
   {
     icon: Users,
     title: "Collaboration",
     description:
-      "Collaborating effectively with cross-functional teams to build scalable solutions and deliver seamless user experiences.",
+      "Working with designers and cross-functional teams to turn Figma designs into pixel-perfect, cross-browser compatible interfaces.",
   },
   {
     icon: Lightbulb,
     title: "Continuous Learning",
     description:
-      "Continuously exploring modern technologies and improving my skills to build innovative, scalable, and production-ready applications.",
+      "Actively learning backend development with .NET and C#, along with Angular, to keep growing as a developer.",
   },
 ];
 
@@ -50,18 +50,19 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm Zohaib Qasim, a Frontend MERN Stack Developer with hands-on
-                industry experience in building modern, scalable, and
+                I'm Zohaib Qasim, a MERN Stack Developer with 1.5+ years of
+                hands-on industry experience building modern, scalable, and
                 user-centric web applications. I specialize in creating
                 responsive and high-performance digital experiences with a
                 strong focus on clean code, performance, and usability.
               </p>
 
               <p>
-                My expertise includes React.js, Next.js, TypeScript, JavaScript,
-                and modern frontend technologies. I also work with Node.js,
-                Express.js, MongoDB, and PostgreSQL to develop full-stack
-                solutions and production-ready applications.
+                My expertise includes React.js, Next.js, TypeScript, and
+                JavaScript on the frontend, and Node.js, Express.js, REST APIs,
+                and JWT authentication on the backend. I work with MongoDB and
+                PostgreSQL (Prisma ORM) to develop full-stack solutions and
+                production-ready applications.
               </p>
 
               <p>
@@ -75,10 +76,9 @@ export const About = () => {
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My goal is to evolve from a Frontend MERN Stack Developer into
-                a highly accomplished Full Stack Developer, continuously
-                mastering new technologies and building innovative solutions
-                that create real impact."
+                "My goal is to keep growing as a Full Stack Developer,
+                continuously mastering new technologies and building reliable
+                products that create real impact."
               </p>
             </div>
           </div>

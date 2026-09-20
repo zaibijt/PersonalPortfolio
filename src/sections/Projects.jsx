@@ -6,7 +6,7 @@ const projects = [
     title: "The Worklane– Corporate Website",
     description:
       "Designed and developed a modern, fully responsive corporate website using Next.js and TypeScript, featuring a clean UI and optimized performance across all devices. Implemented a validated contact form with backend email integration and successfully deployed the project as a live production website.",
-    image: "/public/projects/Theworklane.png",
+    image: `${import.meta.env.BASE_URL}projects/Theworklane.png`,
     tags: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Form Validation", "Backend Email Integration", "Responsive Design"],
     link: "https://www.theworklane.com/",
     github: "https://github.com/zaibijt/WorkLane",
@@ -15,7 +15,7 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "ZNZShop is a full-stack e-commerce platform featuring a database-driven admin panel with role-based access control, real-time analytics, order management, and a customer reviews system. It includes a fully functional storefront with live search, product variants, and a complete order lifecycle from checkout to fulfillment.",
-    image: "/public/projects/E-Commerce.png",
+    image: `${import.meta.env.BASE_URL}projects/E-Commerce.png`,
     tags: ["React.js","Tailwind CSS", "Node.js", "Express.js", "PostgreSQL", "Prisma ORM"],
     link: "https://zaibijt.github.io/znz-shop-e-commerce/",
     github: "https://github.com/zaibijt/znz-shop-e-commerce",
@@ -24,7 +24,7 @@ const projects = [
     title: "Financial Tracker",
     description:
      "A full-stack financial tracker application enabling users to securely manage and monitor their income and expenses. Features authentication, dynamic data tables, and a clean dashboard interface for real-time financial insights.",
-    image: "/public/projects/financial-trackers.png",
+    image: `${import.meta.env.BASE_URL}projects/financial-trackers.png`,
    tags: ["React", "TypeScript", "Vite", "Clerk", "Node.js", "Express.js", "MongoDB"],
     link: "https://zaibijt.github.io/zaibijt-financial-trackers-react-main/#/",
     github: "https://github.com/zaibijt/zaibijt-financial-trackers-react-main",
@@ -33,7 +33,7 @@ const projects = [
     title: "Marshub-WebsiteFrontpage",
     description:
       "Designed and developed a modern, fully responsive landing page for Marshub with a clean and engaging user interface. Focused on responsive layouts, intuitive navigation, and optimized performance for a seamless experience across all devices.",
-    image: "/public/projects/Marshub.jpeg",
+    image: `${import.meta.env.BASE_URL}projects/Marshub.jpeg`,
     tags: ["Html","CSS","Bootstrap"],
     link: "https://zaibijt.github.io/Marshub/##",
     github: "https://github.com/zaibijt/Marshub",

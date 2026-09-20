@@ -1,10 +1,10 @@
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useState } from "react";
 
-const usmanWaheed = "/usman.jpg";
-const naeemAnwar  = "/Naeem.jpg";
-const sherAlam = "/sher.jpg";
-const qasim = "/qasim.jpg";
+const usmanWaheed = `${import.meta.env.BASE_URL}usman.jpg`;
+const naeemAnwar  = `${import.meta.env.BASE_URL}Naeem.jpg`;
+const sherAlam = `${import.meta.env.BASE_URL}sher.jpg`;
+const qasim = `${import.meta.env.BASE_URL}qasim.jpg`;
 
 const testimonials = [
 {

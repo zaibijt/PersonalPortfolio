@@ -14,7 +14,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "zohaibjt483@gmail.com",
+    value: "zohaibjt320@gmail.com",
     href: "mailto:zohaibjt483@gmail.com",
   },
   {
@@ -242,10 +242,11 @@ export const Contact = () => {
                 <span className="font-medium">Currently Available</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I'm currently open to new opportunities as a Frontend or MERN
-                Stack Developer. If you're looking for someone to build modern,
-                scalable, and responsive web applications, I'd love to connect
-                and discuss how I can contribute to your team.
+                I'm currently open to new opportunities as a MERN Stack,
+                Frontend, or Full-Stack Developer. If you're looking for
+                someone to build modern, scalable, and responsive web
+                applications with React.js, Next.js, and Node.js, I'd love to
+                connect and discuss how I can contribute to your team.
               </p>
             </div>
           </div>
